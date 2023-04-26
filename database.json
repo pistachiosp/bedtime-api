@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Braxten",
+      "email": "braxten@yahoo.com"
+    },
+    {
+      "id": 2,
+      "name": "Bodhi",
+      "email": "bodhi@yahoo.com"
+    },
+    {
+      "id": 3,
+      "name": "Breece",
+      "email": "breece@yahoo.com"
+    }
+  ],
+  "bookshelves": [
+    {
+      "id": 1,
+      "bookName": "Where the Wild Things Are",
+      "themeTypesId": 1,
+      "description": "this book is good for anytime and its acceptable 7 nights in a row but not more",
+      "rating": 5,
+      "readTime": "5-10 min"
+    },
+    {
+      "id": 2,
+      "bookName": "The Cat in the Hat",
+      "themeTypesId": 1,
+      "description": "this book is good for anytime and its acceptable 7 nights in a row but not more",
+      "rating": 5,
+      "readTime": "10-15 min"
+    },
+    {
+      "id": 3,
+      "bookName": "Goodnight Moon",
+      "themeTypesId": 1,
+      "description": "this book is good for anytime and its acceptable 7 nights in a row but not more",
+      "rating": 5,
+      "readTime": "5-10 min"
+    },
+    {
+      "id": 4,
+      "bookName": "The Giving Tree",
+      "themeTypesId": 3,
+      "description": "this book is good for anytime and its acceptable 7 nights in a row but not more",
+      "rating": 5,
+      "readTime": "5-10 min"
+    },
+    {
+      "id": 5,
+      "bookName": "Curious George",
+      "themeTypesId": 1,
+      "description": "this book is good for anytime and its acceptable 7 nights in a row but not more",
+      "rating": 5,
+      "readTime": "5-10 min"
+    },
+    {
+      "bookName": "Peter cottontail",
+      "themeTypeId": 1,
+      "description": "fun quick easy read",
+      "rating": "5",
+      "readTime": "5-10 min",
+      "id": 6
+    }
+  ],
+  "userBooks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "bookId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "bookId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "bookId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "bookId": 4
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "bookId": 5
+    }
+  ],
+  "themeTypes": [
+    {
+      "id": 1,
+      "theme": "animals and critters"
+    },
+    {
+      "id": 2,
+      "theme": "machines that go"
+    },
+    {
+      "id": 3,
+      "theme": "people"
+    },
+    {
+      "id": 4,
+      "theme": "educational"
+    },
+    {
+      "id": 5,
+      "theme": "tv characters"
+    }
+  ]
+}
